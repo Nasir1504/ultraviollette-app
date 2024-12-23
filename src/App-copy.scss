@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+@font-face {
+    font-family: 'EuroStyle';
+    src: url('./assets/fonts/EuroStyleNormal.eot');
+    src: url('./assets/fonts/EuroStyleNormal.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/EuroStyleNormal.woff2') format('woff2'),
+        url('./assets/fonts/EuroStyleNormal.woff') format('woff'),
+        url('./assets/fonts/EuroStyleNormal.ttf') format('truetype'),
+        url('./assets/fonts/EuroStyleNormal.svg#EuroStyleNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'EuroStyle', sans-serif;
+    // overflow-y: hidden;
+    // overflow-x: hidden;
+}
+
+@media screen and (max-device-width: 950px) {
+    body {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+html,
+body {
+    -webkit-text-size-adjust: none;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
